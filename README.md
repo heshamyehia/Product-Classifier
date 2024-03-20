@@ -7,6 +7,8 @@ This project implements a product image classifier using deep learning technique
 Initially, ResNet50 was used with only the top layers removed. However, due to poor accuracy, fine-tuning was applied to some layers.
 
 - **Data Collection and Preprocessing**: Product images are collected and preprocessed, including resizing and format conversion.
+ link for dataset: Training : https://drive.google.com/drive/folders/15Zrk63U0spZBoWpHNld_uTw8hK17begf?usp=drive_link,
+                 : Testing https://drive.google.com/drive/folders/15Zrk63U0spZBoWpHNld_uTw8hK17begf?usp=drive_link
 - **Model Selection and Architecture**: Initially, ResNet50 with only the top layers removed is used for transfer learning. However, due to poor accuracy, fine-tuning is applied to some layers.
 - **Model Training**: The model is trained on the dataset with data augmentation to enhance generalization.
 - **Model Evaluation**: The trained model is evaluated on a separate test dataset to assess performance.
