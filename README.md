@@ -12,7 +12,7 @@ Initially, ResNet50 was used with only the top layers removed. However, due to p
 - **Model Selection and Architecture**: Initially, ResNet50 with only the top layers removed is used for transfer learning. However, due to poor accuracy, fine-tuning is applied to some layers.
 - **Model Training**: The model is trained on the dataset with data augmentation to enhance generalization.
 - **Model Evaluation**: The trained model is evaluated on a separate test dataset to assess performance.
-- **Model Deployment**: The trained model can be deployed for inference to categorize new product images.
+
 
 ## Functionality
 - **Training**: Users can train the model on their dataset.
@@ -21,7 +21,7 @@ Initially, ResNet50 was used with only the top layers removed. However, due to p
 - **Model Fine-tuning**: Fine-tune the model for better performance.
 - **Model Evaluation**: Assess the model's accuracy using test data.
 - **Model Saving**: Save the trained model for future use.
-- **Inference**: Deploy the model for categorizing new images.
+
 
 ## Conclusion
 The product image classifier efficiently categorizes product images, demonstrating high accuracy and generalization ability, suitable for various applications in e-commerce and retail.
